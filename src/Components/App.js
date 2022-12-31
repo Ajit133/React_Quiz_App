@@ -1,10 +1,11 @@
 import Layout from "./Layout";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
+import Singup from "./pages/Singup";
 import '../styles/App.css';
 function App() {
   return (
     <Layout>
-      <Home />
+      <Singup />
     </Layout>
       
   );

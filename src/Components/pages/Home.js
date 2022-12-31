@@ -1,6 +1,7 @@
+import Videos from "../Videos";
 function Home(){
     return(
-        <div>Home</div>
+        <Videos />
     )
 }
 export default Home;
