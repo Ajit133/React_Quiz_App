@@ -16,7 +16,7 @@ export default function Login() {
             icon="alternate_email"
           />
           <TextInput type="password" placeholder="Enter password" icon="lock" />
-          <Button>Submit Now</Button>
+          <Button><span> Submit Now</span></Button>
           <div className="info">
             Don't have an account? <a href="singup.html">Singup</a> instand.
           </div>

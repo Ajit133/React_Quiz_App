@@ -1,6 +1,6 @@
 import Form from "../Form";
 import Illustration from "../Illustration";
-import classes from "../../styles/Singup.module.css"
+import classes from "../../styles/Singup.module.css";
 import TextInput from "../TextInput";
 import Checkbox from "../Checkbox";
 import Button from "../Button";
@@ -31,7 +31,7 @@ export default function Singup() {
             icon="lock_clock"
           />
           <Checkbox text=" i agree to the Terms & Conditions"/>
-          <Button>Submit Now</Button>
+          <Button> <span>Submit Now</span></Button>
            
            <div className="info">
             Already have an account? <a href="login.html">Login</a> instand.
